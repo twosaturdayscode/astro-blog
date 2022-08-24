@@ -1,7 +1,7 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
+	"name": "Twosaturdayscode Blog",
+	"short_name": "Twosaturdayscode",
+	"description": "My small piece of the Web",
 	"icons": [
 		{
 			"src": "images/icon/192x192.png",

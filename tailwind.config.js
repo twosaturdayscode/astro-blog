@@ -1,4 +1,6 @@
 const plugin = require("tailwindcss/plugin");
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ["./src/**/*.{astro,html,js,jsx,md,svelte,ts,tsx,vue}"],
@@ -8,6 +10,9 @@ module.exports = {
 	},
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ["Quicksand", ...defaultTheme.fontFamily.sans],
+			},
 			colors: {
 				bgColor: "hsl(var(--theme-bg) / <alpha-value>)",
 				textColor: "hsl(var(--theme-text) / <alpha-value>)",

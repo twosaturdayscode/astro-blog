@@ -7,11 +7,11 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
 	markdown: {
 		shikiConfig: {
-			theme: "dracula",
+			theme: "vitesse-dark",
 			wrap: true,
 		},
 	},
-	site: "https://www.astro-theme-cactus.netlify.app",
+	site: "https://twosaturdayscode.netlify.app",
 	integrations: [
 		mdx({}),
 		tailwind({
